@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriveTimerActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C3043">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="10dp"
+            android:text="Drive timer"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="35dp"
+            android:text="00:00:00"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#C740E8"
+            android:onClick="onClick"
+            android:text="STOP"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>

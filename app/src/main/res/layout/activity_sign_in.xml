@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <EditText
+            android:id="@+id/edTextName"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/form_input_login"
+            android:ems="10"
+            android:hint="Ivanov.I."
+            android:inputType="textPersonName"
+            android:paddingLeft="35dp"
+            android:textColorHint="#AAAAAA"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/form_input_password"
+            android:ems="10"
+            android:hint="••••••"
+            android:inputType="textPassword"
+            android:paddingLeft="35dp"
+            android:textColorHint="#AAAAAA"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="113dp"
+            android:text="Remember"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="135dp"
+            android:background="#4254BB"
+            android:onClick="onClick"
+            android:text="SIGN IN"
+            android:textSize="10sp" />
+
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>
